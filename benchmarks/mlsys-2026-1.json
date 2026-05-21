@@ -1,0 +1,23 @@
+{
+  "widths": [512, 512, 512, 512, 512, 512, 512, 512, 512],
+  "heights": [512, 512, 512, 512, 512, 512, 512, 512, 512],
+  "inputs": [
+    [0, 1],
+    [4],
+    [5, 2],
+    [6, 3],
+    [7, 0]
+  ],
+  "outputs": [
+    [4],
+    [5],
+    [6],
+    [7],
+    [8]
+  ],
+  "base_costs": [2000, 500, 2000, 2000, 500],
+  "op_types": ["MatMul", "Pointwise", "MatMul", "MatMul", "Pointwise"],
+  "fast_memory_capacity": 60000, 
+  "slow_memory_bandwidth": 20,
+  "native_granularity": [128, 128]
+}

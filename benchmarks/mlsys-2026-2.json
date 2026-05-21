@@ -1,0 +1,74 @@
+{
+  "widths": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+  ],
+  "heights": [
+    256,
+    256,
+    256,
+    256,
+    256,
+    256
+  ],
+  "inputs": [
+    [
+      0
+    ],
+    [
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      3
+    ],
+    [
+      0,
+      4
+    ]
+  ],
+  "outputs": [
+    [
+      1
+    ],
+    [
+      2
+    ],
+    [
+      3
+    ],
+    [
+      4
+    ],
+    [
+      5
+    ]
+  ],
+  "base_costs": [
+    1500,
+    1500,
+    1500,
+    1000,
+    1000
+  ],
+  "op_types": [
+    "Pointwise",
+    "Pointwise",
+    "Pointwise",
+    "Pointwise",
+    "Pointwise"
+  ],
+  "fast_memory_capacity": 40000,
+  "slow_memory_bandwidth": 15,
+  "native_granularity": [
+    128,
+    128
+  ]
+}

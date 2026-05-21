@@ -1,0 +1,11 @@
+{
+  "widths": [128, 128, 128],
+  "heights": [128, 128, 128],
+  "op_types": ["Pointwise", "Pointwise"],
+  "inputs": [[0], [1]],
+  "outputs": [[1], [2]],
+  "base_costs": [100, 10],
+  "fast_memory_capacity": 20000,
+  "slow_memory_bandwidth": 10,
+  "native_granularity": [128, 128]
+}

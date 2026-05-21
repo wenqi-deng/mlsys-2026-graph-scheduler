@@ -1,0 +1,10 @@
+output
+solution
+build
+compile_commands.json
+.cache
+*.tar
+.vscode
+docs
+solutions
+speaker-script*
